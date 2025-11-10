@@ -13,7 +13,7 @@ PRODUCT_URL = "https://uk.danielwellington.com/products/emalie-earrings-rose-gol
 
 SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
-SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
+SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp@gmail.com")
 RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 
 headers = {
