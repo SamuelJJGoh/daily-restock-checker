@@ -2,7 +2,7 @@ name: Restock Checker(Daily)
 
 on:
   schedule:
-    - cron: "0 19 * * *"   # run daily at 07:00 UTC
+    - cron: "0 20 * * *"   # run daily at 20:00 UTC
   workflow_dispatch: {}    
 
 jobs:
